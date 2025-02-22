@@ -23,18 +23,7 @@
       "output": "static",
       "favicon": ""
     },
-    "plugins": [
-      "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
-        }
-      ]
-    ],
+    "plugins": ["expo-router", ["expo-splash-screen", {}]],
     "experiments": {
       "typedRoutes": true
     },
